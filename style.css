@@ -1,0 +1,51 @@
+body{
+    /* border: 2px solid green; */
+    height: 100vh;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #575555;
+}
+
+.mainDiv{
+    /* border: 3px solid rgb(208, 26, 26); */
+    background-color:#a5a2a2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgb(244, 244, 243);
+    padding: 50px;
+    max-width: 90%; /* for mobile screens less than 400px wide, max-width=90% will override width 400px*/
+    width: 400px;  /* for larger screen more than 400px wide ,mainDiv will have a fixed width of 400px*/
+}
+
+h2{
+    text-align: center;
+}
+.mainDiv .container{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+
+.mainDiv .container .input{
+   border-radius: 5px;
+   outline: none;
+   padding:4px;
+}
+
+.mainDiv .container #btn{
+    width: 30%;
+    margin: 0 120px;
+    border-radius: 8px;
+    padding: 3px;
+    outline: none;
+    font-size: 15px;
+}
+.mainDiv .container #result{
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 50px;
+    color: #fff
+}

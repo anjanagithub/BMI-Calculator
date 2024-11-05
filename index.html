@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BML Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="mainDiv">
+        <h2 id="id-h2">BML Calculator</h2>
+        <div class="container">
+            <div class="height">
+                <label>Height in CM</label>
+                <input type="number" id="h" class="input">
+            </div>
+            <div class="weight">
+                <label>Weight in KG</label>
+                <input type="number" id="w" class="input">
+            </div>
+            <input id="btn" type="submit" value="Calculate">
+            <div id="result"></div>
+        </div>
+        <div class="wrapper">
+            <h4>BMI Weight Guide</h4>
+            <p>Under Weight = Less than 18.6</p>
+            <p>Normal Range = 18.6 and 24.9</p>
+            <p>Overweight = Greater than 24.9</p>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
